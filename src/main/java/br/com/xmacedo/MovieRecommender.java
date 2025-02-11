@@ -21,9 +21,16 @@ import java.util.List;
 import java.util.Map;
 
 public class MovieRecommender {
-    private static final String FOLDER_TO_GET_YAML_FILES = "src/main/resources/data-set/";
+    private static final String FOLDER_TO_GET_YAML_FILES = "data-set/";
     public static void main(String[] args) {
         try {
+
+            //Step 1: Load the Datasets
+
+            //Step 2: Clean the Movies Metadata
+
+            //Step 3: Merge Datasets
+
             Map<String, Integer> userIdMap = new HashMap<>();
             int userCounter = 0;
             Map<Integer, List<GenericPreference>> userPreferences = new HashMap<>();
@@ -42,7 +49,6 @@ public class MovieRecommender {
                 } catch (Exception ignored) {}
             }
             moviesReader.close();
-
 
 
             // Ler o arquivo CSV manualmente e converter os userId para inteiros
