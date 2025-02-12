@@ -13,7 +13,7 @@ This project is a Proof of Concept (POC) for a Movie Recommendation System. The 
 ## Technologies Used
 
 - **Java**: The core programming language used for developing the recommendation algorithms.
-- - **Apache Mahout**: 
+- **Apache Mahout**: Mahout is a scalable ML-focused library perfect for Collaborative Filtering-based recommendation systems.
 
 ## Installation
 
