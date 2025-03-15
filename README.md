@@ -32,3 +32,4 @@ This project is a Proof of Concept (POC) for a Movie Recommendation System. The 
 
 ## Usage
 
+- Olhar algoritmo Knn (K vizinhos), similiradide de cosseno,
